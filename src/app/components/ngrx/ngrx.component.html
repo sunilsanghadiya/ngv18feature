@@ -1,0 +1,25 @@
+
+
+<div class="container">
+    <div class="container">
+        <div class="col val">
+            <p> {{ count$ | async }} </p>
+        </div>
+    
+        <div class="col">
+
+            <div class="increBtn">
+                <button type="button" class="btn btn-primary " (click)="increment()">Increment</button>
+            </div>
+
+            <div class="decreBtn">
+                <button type="button" class="btn btn-primary " (click)="decrement()">Decrement</button>
+            </div>
+
+            <div class="rsBtn">
+                <button type="button" class="btn btn-primary" (click)="reset()">reset</button>
+            </div>
+            
+        </div>
+    </div>
+</div>
